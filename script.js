@@ -444,8 +444,8 @@ const Projects = props => {
       title: "Technical Documentation Page.",
       img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Documentify.jpg',
       tech: "js react css",
-      link: "#",
-      repo: "#" },
+      link: "https://codepen.io/oguzhanygtr/full/abZOLZa",
+      repo: "https://codepen.io/oguzhanygtr/pen/abZOLZa" },
 
     React.createElement("small", null, "Built using React and CSS."),
     React.createElement("p", null, "A technical documentation page made for a little React library I published on NPM."))))));
@@ -477,11 +477,11 @@ const Contact = props => {
     React.createElement("p", { className: "separator" }),
     React.createElement("p", { className: "subtitle" }, "Please, use the form below or send an email to ",
     '',
-    React.createElement("span", { className: "mail" }, "web",
+    React.createElement("span", { className: "mail" }, "",
 
-    React.createElement("i", { className: "fas fa-at at" }), "yagoestevez",
+    React.createElement("i", { className: "fas fa-at at" }), "",
 
-    React.createElement("i", { className: "fas fa-circle dot" }), "com"), ":")),
+    React.createElement("i", { className: "fas fa-circle dot" }), ""), ":")),
 
 
 
@@ -529,7 +529,7 @@ const SocialLinks = props => {
   return (
     React.createElement("div", { className: "social" },
     React.createElement("a", {
-      href: "https://twitter.com/yagoestevez",
+      href: "https://twitter.com/oguzhanygtr",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "Link to author's Twitter profile" },
@@ -539,7 +539,7 @@ const SocialLinks = props => {
 
     React.createElement("a", {
       id: "profile-link",
-      href: "https://github.com/yagoestevez",
+      href: "https://github.com/oguzhanygtr",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "Link to author's GitHub Profile" },
@@ -548,7 +548,7 @@ const SocialLinks = props => {
     React.createElement("i", { className: "fab fa-github" })),
 
     React.createElement("a", {
-      href: "https://codepen.io/yagoestevez",
+      href: "https://codepen.io/oguzhanygtr",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "Link to author's Codepen Profile" },
