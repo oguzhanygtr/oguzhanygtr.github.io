@@ -418,17 +418,7 @@ const Projects = props => {
     React.createElement("small", null, "Built using VueJS, Axios and CSS."),
     React.createElement("p", null, "App that present the users with the current local weather for their location.")),
 
-    React.createElement(Project, {
-      title: "Tribute.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Tribute.jpg',
-      tech: "js sass",
-      link: "#",
-      repo: "#" },
-
-    React.createElement("small", null, "Built using vanilla Javascript and Scss."),
-    React.createElement("p", null, "Tribute page to Aaron Swartz, a static website built with SCSS and plain Javascript.")),
-
-
+ 
 
     React.createElement(Project, {
       title: "Survey Form.",
