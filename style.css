@@ -290,7 +290,7 @@ form .form-control {
   transition:.5s;
 }
 
-.social-links li .facebook:hover { color: lightblue; }
+.social-links li .facebook:hover { color: blue; }
 .social-links li .linkedin:hover { color: #0077b5; }
 .social-links li .codepen:hover { color: #fcd000; }
 .social-links li .github:hover { color: lightgrey; }
