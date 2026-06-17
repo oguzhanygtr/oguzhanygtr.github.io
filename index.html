@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oguz | Design Technologist & Specialist</title>
+  <meta name="description" content="Matt Obee is a design technologist specializing in web accessibility, semantic HTML, CSS, and inclusive user experience design.">
+  
+  <!-- Preconnect and Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Skip to Content Link for Keyboard Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header Section -->
+  <header class="main-header">
+    <div class="header-container">
+      <a href="#" class="logo" aria-label="Matt Obee Home">
+        <span class="logo-matt">Oguz</span>
+        <span class="logo-obee"></span>
+      </a>
+      
+      <div class="nav-wrapper">
+        <nav class="main-nav" aria-label="Main Navigation">
+          <ul class="nav-list">
+            <li><a href="#writing" class="nav-link">Writing</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+          </ul>
+        </nav>
+        
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content">
+    
+    <!-- Hero / Main Cover Section -->
+    <section class="hero-section" aria-label="Hero section">
+      <div class="hero-container">
+        
+        <!-- Overlapping Glassmorphic Capsule 1 (Top) -->
+        <div class="capsule capsule-top" aria-hidden="true"></div>
+        
+        <!-- The Gradient Hero Card -->
+        <div class="hero-card">
+          <h1 class="hero-headline">I’m a design technologist specialising.</h1>
+          <p class="hero-body">
+            From smalls to global enterprises, I’ve worked on projects across a broad spectrum of industries for a wide range of clients.
+          </p>
+          <p class="hero-highlight">I make software work better for you.</p>
+        </div>
+        
+        <!-- Overlapping Glassmorphic Capsule 2 (Bottom) -->
+        <div class="capsule capsule-bottom" aria-hidden="true"></div>
+        
+      </div>
+    </section>
+
+    <!-- Two Column Articles & Experience Section -->
+    <section class="experience-writing-section" id="writing-experience">
+      <div class="container grid-layout">
+        
+        <!-- Left Column: Articles / Writing -->
+        <div class="writing-column" id="writing">
+          <h2 class="sr-only">Articles and Publications</h2>
+          <div class="articles-list">
+            
+            <!-- Article 1 -->
+            <article class="article-item">
+              <time class="article-date" datetime="2024-12-16">December 16, 2024</time>
+              <h3 class="article-title"><a href="#">2024</a></h3>
+              <a href="#" class="article-link">Read post <span class="arrow" aria-hidden="true">›</span></a>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="article-item">
+              <time class="article-date" datetime="2023-12-04">December 4, 2023</time>
+              <h3 class="article-title"><a href="#">2023</a></h3>
+              <a href="#" class="article-link">Read post <span class="arrow" aria-hidden="true">›</span></a>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="article-item">
+              <time class="article-date" datetime="2023-06-16">June 16, 2023</time>
+              <h3 class="article-title"><a href="#">2023</a></h3>
+              <a href="#" class="article-link">Read post <span class="arrow" aria-hidden="true">›</span></a>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- Right Column: Work Experience -->
+        <div class="experience-column" id="experience">
+          <div class="work-card">
+            
+            <!-- Card Header -->
+            <div class="work-card-header">
+              <svg class="briefcase-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+              <h3>Work</h3>
+            </div>
+
+            <!-- Experience List -->
+            <ol class="experience-list">
+              
+              <!-- HBV -->
+              <li class="experience-row">
+                <div class="company-logo logo-hbv" aria-hidden="true">
+                  <img src="https://kurumsal.hacibayram.edu.tr/dosya/4" alt="hbv">
+                </div>
+                <div class="experience-details">
+                  <h4 class="company-name">HBV</h4>
+                  <p class="role-title">Senior Software Engineer</p>
+                </div>
+                <time class="experience-duration">2023 — Present</time>
+              </li>
+
+              <!-- Apollo -->
+              <li class="experience-row">
+                <div class="company-logo logo-gazi" aria-hidden="true">
+                  <img src="https://upload.wikimedia.org/wikipedia/tr/4/4e/Gazi_%C3%9Cniversitesi_logo.png?_=20221225111755" alt="Gazi">
+                </div>
+                <div class="experience-details">
+                  <h4 class="company-name">Gazi</h4>
+                  <p class="role-title">Student</p>
+                </div>
+                <time class="experience-duration">2021 — 2025</time>
+              </li>
+
+            </ol>
+
+            <!-- Download Button -->
+            <a href="#" class="download-resume-btn">
+              <span>Download Resume</span>
+              <svg class="download-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+              </svg>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="main-footer">
+    <div class="container">
+      <p class="minimal-footer-text">Made with <span class="heart" aria-hidden="true">♥</span> by Oguz</p>
+    </div>
+  </footer>
+
+  <!-- Theme Toggle & Smooth Scroll Script -->
+  <script>
+    // Theme Toggle Script
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const currentTheme = localStorage.getItem('theme');
+
+    if (currentTheme === 'dark') {
+      document.documentElement.classList.add('dark-theme');
+      themeToggleBtn.setAttribute('aria-label', 'Toggle light mode');
+      themeToggleBtn.setAttribute('title', 'Toggle light mode');
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark-theme');
+      let theme = 'light';
+      if (document.documentElement.classList.contains('dark-theme')) {
+        theme = 'dark';
+        themeToggleBtn.setAttribute('aria-label', 'Toggle light mode');
+        themeToggleBtn.setAttribute('title', 'Toggle light mode');
+      } else {
+        themeToggleBtn.setAttribute('aria-label', 'Toggle dark mode');
+        themeToggleBtn.setAttribute('title', 'Toggle dark mode');
+      }
+      localStorage.setItem('theme', theme);
+    });
+
+    // Smooth Scroll Active Link Observer
+    const navLinks = document.querySelectorAll('.nav-link');
+    const sections = [document.getElementById('writing'), document.getElementById('experience')];
+
+    window.addEventListener('scroll', () => {
+      let currentSectionId = '';
+      sections.forEach(section => {
+        if (!section) return;
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= (sectionTop - 180)) {
+          currentSectionId = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href').substring(1) === currentSectionId) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
